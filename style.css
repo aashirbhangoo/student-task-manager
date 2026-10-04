@@ -1,0 +1,118 @@
+/* Basic page styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* Heading */
+
+h1 {
+    margin-bottom: 30px;
+}
+
+
+/* Input boxes */
+
+input {
+    padding: 10px;
+    width: 250px;
+    margin: 5px;
+}
+
+
+/* Buttons */
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+
+    border: none;
+    cursor: pointer;
+
+    background-color: #333;
+    color: white;
+
+    border-radius: 5px;
+
+    /* Small animation */
+    transition: 0.2s;
+}
+
+
+/* Button animation */
+
+button:hover {
+    transform: scale(1.05);
+}
+
+
+/* Task section */
+
+.task-section {
+    background-color: white;
+
+    width: 500px;
+    max-width: 90%;
+
+    margin: 30px auto;
+
+    padding: 20px;
+
+    border-radius: 10px;
+}
+
+
+/* Remove bullet points */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+/* Individual tasks */
+
+li {
+    background-color: #eeeeee;
+
+    margin: 10px 0;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 5px;
+
+    /* Task animation */
+    animation: appear 0.3s;
+}
+
+
+/* Completed task */
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+
+/* Small animation */
+
+@keyframes appear {
+
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
