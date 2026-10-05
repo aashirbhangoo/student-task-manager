@@ -5,7 +5,7 @@ A simple web application developed as a pair-based Git and GitHub collaborative 
 The `Student Task Manager` allows users to add tasks, display tasks, mark tasks as completed, delete tasks, and search for tasks.
 
 The main purpose of this project is to demonstrate a real collaborative software-development workflow using Git and GitHub.
-**TEMPORARY HASH CHANGE**
+
 ---
 
 ## Team Members
